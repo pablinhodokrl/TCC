@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -32,8 +33,8 @@
 
             <form action="login.php" method="POST">
                
-            <input type="text" id="login" placeholder ="Email / CPF" name="usermail"> <br>
-                <input type="password" id="senha" placeholder ="Senha" name="user_senha"> <br>
+            <input type="text" id="login" placeholder ="Email / CPF" name="email"> <br>
+                <input type="password" id="senha" placeholder ="Senha" name="senha"> <br>
                 
                 <div class="botão">
                     <a href="busca-de-produtos.html">

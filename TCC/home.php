@@ -35,7 +35,9 @@
 
         }
     
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -130,7 +132,7 @@
 
             <br>
             
-            <div class="box-conteudo">
+            <div class="container-fluid">
 
                 <div class="img-produto">
 
@@ -161,38 +163,56 @@
     <div class="col-6">
       <div class="card">
         <div class="card-body">
-          <h1>Contato</h1>
+          <h1>Cadastro de produtos</h1>
           <form id="form-contato">
+
             <div class="form-group">
-              <label for="nome">Nome:</label>
-              <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu nome...">
+              <label for="email">Nome do Produto</label>
+              <input class="form-control" type="text" name="NomeProduto" id="email" placeholder="Digite o seu e-mail...">
             </div>
             <div class="form-group">
-              <label for="email">E-mail:</label>
-              <input class="form-control" type="email" name="email" id="email" placeholder="Digite o seu e-mail...">
+              <label for="email">Validade</label>
+              <input class="form-control" type="text" name="Validade" id="email" placeholder="Digite o seu e-mail...">
             </div>
             <div class="form-group">
-              <label for="mensagem">Mensagem:</label>
-              <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Digite a mensagem..."></textarea>
+              <label for="email">Marca</label>
+              <input class="form-control" type="text" name="Marca" id="email" placeholder="Digite o seu e-mail...">
             </div>
+            <div class="form-group">
+              <label for="email">Preço por Quantidade</label>
+              <input class="form-control" type="text" name="PreçoQTD" id="email" placeholder="Digite o seu e-mail...">
+            </div>
+            <div class="form-group">
+              <label for="email">Preço por Engradado</label>
+              <input class="form-control" type="text" name="PreçoEGD" id="email" placeholder="Digite o seu e-mail...">
+            </div>
+            <div class="form-group">
+              <label for="email">Fornecedor</label>
+              <input class="form-control" type="text" name="Fornecedor" id="email" placeholder="Digite o seu e-mail...">
+            </div>
+            <div class="form-group">
+              <label for="email">Lote</label>
+              <input class="form-control" type="text" name="Lote" id="email" placeholder="Digite o seu e-mail...">
+            </div>
+
             <div class="form-group text-center">
               <button type="submit" class="btn btn-primary">ENVIAR</button>
             </div>
-            <div class="alert alert-danger d-none">
+           <!--  <div class="alert alert-danger d-none">
               Preencha o campo <span id="campo-erro"></span>!
-            </div>
+            </div> -->
           </form>
         </div>
       </div>
 
     </div>
 
-    <div class="col-6">
+<!--     <div class="col-6">
       <div class="card">
         <div class="card-body">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6790061739257!2d-51.21348718423787!3d-30.046065581881678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978452facd5c1%3A0x4106a3c68fa8bbe9!2sBurger%20King!5e0!3m2!1spt-BR!2sbr!4v1585791483084!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
