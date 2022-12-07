@@ -1,5 +1,4 @@
 # TCC
-WHERE THE CHOSEN SUFFER
 
 a pasta do TCC-TesteEditar precisa estar no diretório htdocs do XAMPP (sim, precisa do xampp, com os modulos apache e MySQL ligados)
 
